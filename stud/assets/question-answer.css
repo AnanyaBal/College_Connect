@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Ultra');
+
+body {
+	font-size: 18px;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+	float: left;
+	color: #962520;
+	margin-left: 35px;
+	font-family: 'Ultra', serif;
+}
+
+.logo:hover {
+	text-decoration: none;
+	color: #962520;
+}
+
+.logo:focus {
+	outline: none !important;
+	color: #962520;
+	text-decoration: none;
+}
+.form {
+	width: 650px;
+	margin: auto;
+}
+
+input[type=text], textarea {
+	border-style: none;
+	width: 100%;
+	display: block;
+	border-radius: 4px;
+	padding: 10px;
+	box-sizing: border-box;
+	font-size: 20px;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+input:focus ,textarea {
+	outline: none;
+}
+
+.question {
+	color: black;
+	font-size: 20px;
+}
+
+.question:hover {
+	color: black;
+}
+
+.question-container {
+	width: 650px;
+	height: 100px;
+	margin: auto;
+	padding-top: 50px;
+	padding-top: 30px;
+}
+
+.view-question-container {
+	width: 600px;
+	margin: auto;
+}
+
+.welcome {
+	margin-bottom: 40px;
+}
+
+.btn {
+	border-radius: 18px;
+}
+
+.btn:focus {
+	outline:none !important;
+}
+
+.answers {
+	font-weight: bolder;
+	margin-top: 30px;
+}
+
+.answer-container {
+	width: 600px;
+	margin: auto;
+	padding-bottom: 30px;
+}
+
+.ans-author {
+	margin-top: 20px;
+}
+
+.update-btn {
+	margin-top: 10px;
+}
+
+.answer-form {
+	margin: auto;
+}
+
+label {
+	text-align: left;
+}
+
+.glyphicon-fire {
+	color: red;
+	margin-left: 650px;
+}
+
+.glyphicon-certificate{
+	color: blue;
+	margin-left: 650px;
+	font-size: 10px;
+	cursor: pointer;
+}
+
+.form-group input {
+	margin-top: -17px;
+}
+
+.form-group textarea {
+	margin-bottom: -19px;
+	height: 170px;
+}
+
+.fire {
+	color: red;
+	font-size: 10px;
+	cursor: pointer;
+}
+
+footer {
+	padding: 10px;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+a {
+	outline: 0px;
+}
+
+.about {
+	float: right;
+	margin-top: 35px;
+	margin-right: 32px;
+	color: #962520;
+	font-weight: bolder;
+}
+
+.about:hover {
+	color: #962520;
+	text-decoration: none;
+}
+
+#about-container {
+	margin-top: 45px;
+}
+
+#about-container h2{
+	margin-bottom: 16px;
+}
+
+#about-container p {
+	width: 660px;
+	margin: auto;
+	margin-bottom: 130px;
+}
+
+.about-hr {
+	width: 100px;
+	height: 3px;
+	background-color: #919191;
+}
+
+.card-layout{
+  -webkit-box-shadow: 10px 10px 35px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 35px -8px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 35px -8px rgba(0,0,0,0.75);
+  padding: 20px;
+  width: 80%;
+  margin: 20px auto;
+}
